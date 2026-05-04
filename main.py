@@ -8,7 +8,7 @@ from typing import List, Dict, Optional, Tuple
 # PARÁMETROS MONTECARLO
 # ───────────────────────────────────────────────────────────
 SIMS_POR_MASCARA = 300   # Simulaciones por máscara de bloqueo
-SEED = 42                # Semilla para reproducibilidad (None = aleatorio)
+SEED = None              # Semilla para reproducibilidad (None = aleatorio)
 
 if SEED is not None:
     random.seed(SEED)
